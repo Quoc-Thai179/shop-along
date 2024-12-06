@@ -1,0 +1,102 @@
+/* Căn giữa tất cả phần tử trong trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Màu nền nhẹ nhàng */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Tiêu đề cửa hàng với nền đen và chữ trắng */
+.header {
+    background-color: #000; /* Nền đen */
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+    border-radius: 5px;
+}
+
+/* Căn giữa nội dung form */
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white; /* Nền trắng cho form */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Phần nhập liệu */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    border-color: #4caf50; /* Màu border khi focus */
+    outline: none;
+    background-color: #fff; /* Background trắng khi focus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Màu xanh cho nút */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Thay đổi màu khi hover */
+}
+
+/* Kết quả tính toán */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #e9f7e2; /* Nền màu xanh nhạt cho kết quả */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hiệu ứng box-shadow cho các input và button */
+input, button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Thêm hiệu ứng cho các phần tử khi người dùng hover */
+input:hover, button:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
